@@ -2,7 +2,6 @@ import Config
 
 # Configure your database
 config :beer_catalog, BeerCatalog.Repo,
-  adapter: Ecto.Adapters.MySQL,
   username: "root",
   password: "SqlUser10$",
   database: "beer_catalog_dev",
